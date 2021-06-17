@@ -13,4 +13,4 @@ jobs:
       id: run-close-milestone-action
       uses: DanS01/Close-Milestone-Action@v1
       with:
-        SECRETS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        secrets-token: ${{ secrets.GITHUB_TOKEN }}
