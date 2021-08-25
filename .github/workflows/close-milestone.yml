@@ -5,6 +5,7 @@ on:
     types: [closed]
   issues:
     types: [closed]
+  workflow_dispatch:
 
 jobs:
   close-milestone:
@@ -13,6 +14,6 @@ jobs:
     steps:
     - name: Run Close Milestone Action
       id: run-close-milestone-action
-      uses: DanS01/Close-Milestone-Action@v1.8
+      uses: DanS01/Close-Milestone-Action@v1.10
       with:
         secrets-token: ${{ secrets.GITHUB_TOKEN }}
