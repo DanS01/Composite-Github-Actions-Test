@@ -12,6 +12,6 @@ jobs:
     steps:
     - name: Run Create Milestone Action
       id: run-create-milestone-action
-      uses: DanS01/Create-Milestone-Action@v0.1.7
+      uses: DanS01/Create-Milestone-Action@v0.1.8
       with:
         secrets-token: ${{ secrets.GITHUB_TOKEN }}
